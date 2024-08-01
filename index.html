@@ -1,0 +1,595 @@
+<!-- Product Page for Fabco Plastics -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Products Page / improved Meta Data for better SEO-friendly versions -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather&family=Montserrat&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script src="js\script.js" defer></script>
+    
+   
+    <title>Fabco Plastics | Homepage</title>
+</head>
+<body class="bg-dark">
+   <!-- Header section -->
+  <header>
+        <!-- navagation bar -->
+    <nav class="navbar navbar-expand-lg bg-dark py-4 ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+           <!--  <img src="images\Logos\Fabco_60thLogo_FINAL_MatserTreated.png" class="fabcoNavLogo" alt="Fabco Plastics Logo" width="200" height="80" > -->
+            <img src="images\Logos\Fabco_60thLogo_FINAL_Black+OrangeLIGHTER_TREATED.png" class="fabcoNavLogo" alt="Fabco Plastics Logo" width="200" height="80" >
+          </a>
+          <button class="hamburgerDiv navbar-toggler shawdow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigatio">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container collapse navbar-collapse" id="navbarSupportedContent">
+            
+                  <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item navmenuitems">
+                      <a class="nav-link active fs-5 navbarLinks" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item navmenuitems">
+                      <a class="nav-link fs-5 navbarLinks " href="#">About Us</a>
+                    </li>    
+                      <!-- Offcanvas Products Menue Conponent Content uutside navabr -->
+                    <li class="nav-item navmenuitems">
+                      <a class="nav-link text-star fs-5 navbarLinks" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"href="aboutus.html">Products</a>
+                    </li>    
+                          <li class="nav-item navmenuitems ">
+                            <a class="nav-link fs-5 navbarLinks" href="#">Services</a>
+                          </li>
+                          <li class="nav-item navmenuitems">
+                            <a class="nav-link fs-5 navbarLinks" href="#">Markets Served</a>
+                          </li>
+                          <li class="nav-item navmenuitems">
+                            <a class="nav-link fs-5 navbarLinks" href="#">Suppliers</a>
+                          </li>
+                          <li class="nav-item dropdown navmenuitems">
+                            <a class="anchorText nav-link dropdown-toggle fs-5 navbarLinks" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Contact
+                            </a>
+                           
+                              <ul class="dropdown-menu bg-dark-subtle contactDropDown">
+                                <li class="navmenuitems"><a class="contactDropDownList dropdown-item" href="#">Action</a></li>
+                                <li class="navmenuitems"><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="navmenuitems"><hr class="dropdown-divider"></li>
+                                <li class="navmenuitems"><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                        </li>      
+                  </ul>
+                  <form class="d-flex " role="search">
+                    <input class=" enterItem form-control me-1 shadow-none " type="search" placeholder="Enter Item" aria-label="Search">
+                    <button class="searchButton btn  me-1 bg-white" type="submit">Search</button>
+                  </form>
+
+                  <!-- Social Media links -->
+                        
+                    <a class="socialmedia ms-4" href="https://www.facebook.com/profile.php?id=100065000131370" > <i class=" fa-brands fa-facebook-f fs-5" aria-hidden="true"></i>
+                    </a>               
+                    <a class="socialmedia ms-2" href="https://www.instagram.com/fabcoplastics/"><i class="fa-brands fa-instagram mx-2 fs-5" aria-hidden="true"></i>
+                    </a>
+                    <a class="socialmedia ms-2"  href="https://www.linkedin.com/company/fabcoplastics/">  <i class="fa-brands fa-linkedin-in fs-5" aria-hidden="true"></i></a>       
+                      
+            </div>
+        </div>
+      </nav>
+        <!-- navagation bar END -->
+  </header>   
+     <!-- Header section END -->
+
+      <!-- Section 1 Off Canvas Grid Body -->
+    <section>
+      <!-- Content of Offcanvas Component in Navbar (Products) -->
+    
+      <div class=" offcanvasDiv offcanvas offcanvas-start w-25" data-bs-scroll="true" tabindex="-1"id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvaslogoTitleDiv offcanvas-header bg-dark">
+          <img src="images\Logos\Fabco_60thLogo_FINAL_Black+OrangeLIGHTER_TREATED.png" alt="Bootstrap" width="150" height="60" >
+          <h5 class="offcanvas-title mx-5 mt-2 display-6 fs-4 fw-semibold text-light" id="offcanvasWithBothOptionsLabel">Products List</h5>
+          <button type="button" class="xOut btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div> 
+        <div class="offcanvas-body bg-dark ">
+          <ul class="">   
+            <li class="offcanvasitems"><a class="dropdown-item" href="pipesFittings.html">Pipes & Fittings
+              <img src="images\ProductsImages\pipeFittings.png" class="productimage" alt="">
+            </a></li>
+            <li class="offcanvasitems me-4"><a class="dropdown-item " href="#">Pure Water, Institutional & Lab Piping<img src="images\ProductsImages\purewaterInstitionalLabPiping.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems">
+            <a class="dropdown-item" href="#">Valves & Automation<img src="\images\ProductsImages\valuesAutomation.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Plastic Sheet & Rod<img src="\images\ProductsImages\plasticsheetRod.png" class="productimage" alt=""></a></li> 
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Liquid Monitoring<img src="\images\ProductsImages\liguidMonitoring.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Pumps & Filtration<img src="images\ProductsImages\pumpFiltration.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Tanks & Accessories<img src="images\ProductsImages\TanksAcessories.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Flexible Tube, Hosing & Fittings<img src="images\ProductsImages\flexibleTubeHostingsFittings.png" class="productimage" alt=""></a></li>
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Ventilation<img src="images\ProductsImages\ventilation.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">FRP Products<img src="images\ProductsImages\frpProducts.png" class="productimage mx-2" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Tools<img src="images\ProductsImages\tools.png" class="productimage" alt=""></a></li>
+
+            <li class="offcanvasitems nav-item dropdown">
+            <a class="dropdown-item" href="#">Engineering Info<img src="images\ProductsImages\engineeringInfo.png" class="productimage" alt=""></a>
+
+          </ul>
+          <hr class="dropdown-divider border border-seconadry border-1">
+          <br>
+   
+            <a class="blinking-arrow productspagearrow dropdown-item text-center" href="index.html">
+              <!-- <i class="fa-solid fa-arrow-right-long"></i> -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg>
+            </a> 
+       
+        </div>
+      </div>
+  </section>
+   <!-- Section 1 END..Off Canvas Grid Body -->
+
+  <!-- Section 2 Carousel Images -->
+  <section>
+<!--     <div class="container">
+      <img src="images\Banners\Pipes & Fittings Banner.jpg" class="img-fluid bannerImage" alt="...">
+    </div>
+   -->
+          <div class="carouselDiv container mt-5 p-4 ">               
+            <div id="carouselExampleCaptions" class="carouselDiv carousel slide w-100">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images\Banners\Pipes & Fittings BannerTREATED_.png"  class="d-block w-100 " alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  <!--  <h5>First slide label</h5> -->
+                  <!--   <p>Some representative placeholder content for the first slide.</p> -->
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src=""class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+</section>
+ <!-- Section 2 END... Carousel Images -->
+
+<!-- 
+<hr class="hrLine border border-white border-1 opacity-50"> -->
+
+  <div class="container text-center mt-5 p-1">
+    <h1 class="ourProductsH1 display-6 text-center">Our Products</h1>
+    <h2 class="whatWeOfferH2 display-3 text-light display-5 text-center fw-bold">What We Offer</h2>
+  </div>
+   <div>
+
+   <!--Section 3 Product Card & Links -->
+     <section>
+      <!-- Cards in a grid 1 to 4 -->
+
+                    <div class="container my-5">
+                      <div class="row gap-4 justify-content-center">
+                          <!-- Card 1 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card ">
+                            <img src="images\ProductsImages\pipeFittings.png" class="card-img-to productcardImage" alt="Pipes & Fittings Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Pipes & Fittings</h5>
+                              <p class="card-text">Fabco Plastics stocks the widest range of plastic pipe and fittings in the industry.</p>
+                              <a href="pipesFittings.html" class="productBtn btn btn-primary">View Products</a>
+                              </a> 
+                            </div>
+                          </div>
+
+                          <!-- Card 2 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card">
+                            <img src="images\ProductsImages\purewaterInstitionalLabPiping.png" class="card-img-to productcardImage" alt="Purewater Institional LabPiping Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Pure Water, Institutional & Lab Piping</h5>
+                              <p class="card-text">Spears® Low-Extractable™ Piping Systems provide a cost-effective alternative to other piping materials.
+                                other industries  </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                          <!-- Card 3 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card " >
+                            <img src="images\ProductsImages\valuesAutomation.png" class="card-img-top productcardImage" alt="Value &Automation Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body h-25">
+                              <h5 class="card-title">Valves & Automation</h5><!--  -->
+                              <p class="card-text">Fabco Plastics is Canada's leading Plastic Valve distributor.  </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                          <!-- Card 4 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card ">
+                            <img src="images\ProductsImages\plasticsheetRod.png" class="card-img-top productcardImage" alt="Plastic Sheet & Rod Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Plastic Sheet & Rod</h5>
+                              <p class="card-text">Fabco Plastics carries the Largest Inventory of Industrial Plastic Sheets, Rods and Shapes in Canada.</p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Cards in a grid 5 to 8 -->
+                  <div class="container">
+                      <div class="row gap-4 justify-content-center">
+                          <!-- Card 5 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card ">
+                            <img src="images\ProductsImages\liguidMonitoring.png" class="card-img-top productcardImage" alt="Liquid Monitoring Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body ">
+                              <h5 class="card-title">Liquid Monitoring</h5>
+                              <p class="card-text">Quality Analytical and Flow Instrumentation for Industries.
+                                </p>
+                             
+                                <a href="#" class="productBtn btn btn-primary ">View Products</a>
+                            
+                            </div>
+                          </div>
+                          <!-- Card 6 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card ">
+                            <img src="images\ProductsImages\pumpFiltration.png" class="card-img-top productcardImage" alt="Pumps & Filtration">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Pumps & Filtration</h5>
+                              
+                              <p class="card-text">Fabco Plastics Carries the widest range of Pumps and Filters in Canada.
+                            </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a><!-- <i class="fa-solid fa-arrow-up-right-from-square"></i> --></a>
+                            </div>
+                          </div>
+                          <!-- Card 7 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card">
+                            <img src="images\ProductsImages\TanksAcessories.png" class="card-img-top productcardImage" alt="Tanks & Accessories">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Tanks & Accessories</h5>
+                              <p class="card-text">Fabco Plastics is recognized as a leader in a wide variety of storage solutions for industrial markets. </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                          <!-- Card 8 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card">
+                            <img src="images\ProductsImages\flexibleTubeHostingsFittings.png" class="card-img-top productcardImage" alt="Flexible Tube, Hosing & Fittings Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Flexible Tube, Hosing & Fittings</h5>
+                              <p class="card-text">Fabco Plastics Stocks a wide range of Thermo Plastics Tubing and Specialty Hose and fittings. </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Cards in a grid 9 to 12 -->
+                  <section>
+                    <!-- Pipes and Fittings -->
+                    <div class="container my-5">
+                      <div class="row gap-4 justify-content-center">
+                          <!-- Card 9 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2  card">
+                            <img src="images\ProductsImages\ventilation.png" class="card-img-top productcardImage" alt="Ventilation Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Ventilation</h5>
+                              <p class="card-text">HVAC/ DUCTING ADVANTAGES 
+                                Less expensive and better corrosion than stainless steel. 
+                                </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+
+                          <!-- Card 10 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card p-2">
+                            <img src="images\ProductsImages\frpProducts.png" class="productcardImage card-img-top m-auto mt-2" alt="FRP Products Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">FRP Products</h5>
+                              <p class="card-text">Fabco offers a full range of Fiberglass Molded Grating Panels for most any application. </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                          <!-- Card 11 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card">
+                            <img src="images\ProductsImages\tools.png" class="card-img-top productcardImage" alt="Tools Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Tools</h5>
+                              <p class="card-text">The automated CNC process precision cuts components to regular and irregular shapes that can then be used by themselves.</p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                          </div>
+                          <!-- Card 12 -->
+                          <div class="productcard col-sm-6 col-md-4 col-lg-2 card">
+                            <img src="images\ProductsImages\engineeringInfo.png" class="card-img-top productcardImage" alt="Engineering Info Image">
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-body">
+                              <h5 class="card-title">Engineering Info</h5>
+                              <p class="card-text">Plastic Matertial Digest.      </p>
+                              <a href="#" class="productBtn btn btn-primary">View Products</a>
+                            </div>
+                      </div>
+                  </div>
+    </section>
+    <!--Section 3... END... Product Card & Links  -->
+
+    <!-- Section 4 Subscribe to Newsletter with Modal -->
+    <section>
+
+            <!-- News Letter inside Modal -->            <!-- Button trigger modal -->
+    
+              <div class="subcribeToNewsletterDiv container-fluid text-center">
+                              <!-- Button trigger modal -->
+
+                    <div class="row mt-4">
+
+                                <div class="col-12"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-envelope mt-3 envelope" viewBox="0 0 16 16">
+                                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                </svg></div>
+                                <div class="col-12">
+                               
+                                  <h2 class="fs-5 text-white mt-3">Subscribe to stay informed and up to date with our latest news and products!</h2>
+                                  
+                                </div>
+                                <div class="col-12">
+                                  <!-- Modal -->
+                                  <button type="button" class="subscribeBtn btn btn-light m-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Subscribe
+                                    </button>
+                                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"       aria-hidden="true">
+                                            <div class="modal-dialog border border-3 border-dark">
+                                                      <div class="modal-content bg-dark-subtle">
+                                                        <img src="images\Logos\Fabco_60thLogo_FINAL_Black+OrangeLIGHTER_TREATED.png" class=" w-25 m-auto mt-2" alt="Fabco PLastics Logo">
+                                                      <div class="modal-header m-auto">
+                                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe to our newsletter!</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                            <form>
+                                                          
+                                                              <div class="mb-3">
+                                                                <label for="exampleInputPassword1" class="formLabel form-label fw-semibold">Name:</label>
+                                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                                              </div>
+                                                              <div class="mb-3">
+                                                                <label for="exampleInputEmail1" class="formLabel form-label fw-semibold">Email address</label>
+                                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                              </div>
+                                                            <!--  <p class ="subscribeNotification">REPLY</p> -->
+                                                              <button type="submit" class="signupBtn btn btn-dark" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Sign Up</button>
+                                                            </form>
+                                                       </div>  
+                                               </div>
+                                        </div>
+                                </div>
+                    </div>
+          
+               </div>
+    </section>
+
+     <!-- Section 4 END... Subscribe to Newsletter with Modal -->
+  
+    <!-- Section 5 Footer. Our Locations -->
+  <section>
+
+                      <!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <div class="container my-5">
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+                      <!-- Grid container -->
+                      <h2 class="servingCanada2 display-6 text-center">Serving Canada</h2>
+                      <h3 class="ourLocationsh3 display-5 text-center fw-bold">OUR LOCATIONS</h3>
+                      <div class="container p-4">
+                        <!--Grid row-->
+                        <div class="row mt-4 ">
+                          <!--Grid column-->
+                          <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+                            <h5 class="locationtitles text-uppercase mb-4">Maple, On</h5>
+
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home locationIcons"></i></span><span class="ms-2">2175-A Teston Road,
+                                  Maple, ON L6A 1T3</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope locationIcons"></i></span><span class="ms-2">info@example.com</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone locationIcons"></i></span><span class="ms-2">(905) 832 - 0600</span>
+                              </li>
+                            </ul>
+
+                          </div>
+                          <!--Grid column-->
+                          <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+                            <h5 class="locationtitles text-uppercase mb-4">Edmonton, AB</h5>
+
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home locationIcons"></i></span><span class="ms-2">24790 - 117 Ave,
+                                  Acheson, AB T7X 6C2</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope locationIcons"></i></span><span class="ms-2">info@example.com</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone locationIcons"></i></span><span class="ms-2">(780) 451 - 0238</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <!--Grid column-->
+                          <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+                            <h5 class="locationtitles text-uppercase mb-4">Surrey, BC</h5>
+
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home locationIcons"></i></span><span class="ms-2">9511 - 194A Street,
+                                  Surrey, BC V4N 4G4</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope locationIcons"></i></span><span class="ms-2">info@example.com</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone locationIcons"></i></span><span class="ms-2">(604) 882 - 15648</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <!--Grid column-->
+                          <div class="col-lg-3 col-md-12 mb-4 mb-md-0 ">
+                            <h5 class="locationtitles text-uppercase mb-4">Saskatoon, SK</h5>
+
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home locationIcons"></i></span><span class="ms-2">3926 Arthur Rose Ave,
+                                  Saskatoon, SK S7P 0C9</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope locationIcons"></i></span><span class="ms-2">info@example.com</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone locationIcons"></i></span><span class="ms-2">(306) 955 - 6005</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <!--Grid column-->
+                          <div class="col-lg-3 col-md-12 mb-4 mb-md-0 mt-5">
+                            <h5 class="locationtitles text-uppercase mb-4">Laval, QC</h5>
+
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home locationIcons"></i></span><span class="ms-2">2750 Rue Bernard-Lefebvre Laval, QC H7C 0A5</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope locationIcons"></i></span><span class="ms-2">info@example.com</span>
+                              </li>
+                              <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone locationIcons"></i></span><span class="ms-2">(450) 687 - 2721</span>
+                              </li>
+                            </ul>
+                          </div>
+
+                        
+
+                          
+                            <div class="mt-4 text-center">
+                              <a class="socialmedia2 btn btn-floating btn-lg m-4"  href="https://www.facebook.com/profile.php?id=100065000131370" > <i class="fa-brands fa-facebook-f mx-2" aria-hidden="true"></i>
+                              </a>               
+                              <a class="socialmedia2 btn btn-floating btn-lg m-4" href=""><i class="fa-brands fa-instagram mx-2" aria-hidden="true"></i>
+                              </a>
+                              <a class="socialmedia2 btn btn-floating btn-lg m-4"  href="https://www.linkedin.com/company/fabcoplastics/">  <i class="fa-brands fa-linkedin-in mx-2" aria-hidden="true"></i></a>
+                                
+                            </div>
+                        </div>
+                          <!--Grid column-->
+  
+                      </div>
+                          <!--Grid column-->
+                          <!-- Carousel Of Partners IMages -->   
+                    <div class="suppliersDiv container-fluid mt-4">
+                      <h2 class="text-center display-6 ourSuppliers">OUR SUPPLIERS</h2>
+                          <h3 class="text-center display-5 fw-bold ourPartners">VALUED PARTNERS</h3>
+                          <div id="carouselExampleIndicators" class="carousel slide my-4 suppliersCarouselImage">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active partnerLogo">
+                                <img src="images\carouselto7logos\Suppliers1to7.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item partnerLogo partnerLogo">
+                                <img src="images\carouselto7logos\Suppliers Logo8to14.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item partnerLogo">
+                                <img src="images\carouselto7logos\Suppliers15to20.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    
+                    
+                              <!-- Copyright -->
+                              
+                          
+                              <div class=" container copyrightLogoDiv text-center p-4">
+                                <div class="row">
+                                 <div class="col">
+                                  <a class=" fs-4 copyrightText" href="https://mdbootstrap.com/">Fabco Plastics © 2024</a>
+                                 </div>
+                                 <div class="col">
+                                  <a class="text-white fs-5" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle backToTop " viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+                                  </svg></a>
+                                 </div>
+                                </div>
+                               
+                               
+                              </div>
+                          <!-- Copyright -->
+         </footer>
+    </div>
+  
+  </section>
+  <!-- Section 5 END.. Footer -->
+
+                    
+</body>
+</html>

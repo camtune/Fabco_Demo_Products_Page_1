@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+/* 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
+
+body {
+/*   background-color:rgb(15, 14, 14) !important ; */
+} 
+
+#smoothScroll {
+  scroll-behavior: smooth;
+}
+
+
+.carouselDiv {
+  width: 100vh;
+  margin:auto;
+/*  border: 2px solid black; */
+}
+
+
+.navbar  {
+/* border: 1px solid #121212; */
+  border-top: 2px solid #f48424 ;
+  box-shadow: 2px 1px 1px 1px #f48424; 
+  /* border-left:2px solid black !important;
+  border-right:2px solid black !important; */
+}
+
+
+/* Search input and button in Navbar */
+.enterItem, .searchButton { 
+  border: 2px solid #a09f9f !important;
+  
+}
+.enterItem:hover,.searchButton:hover  {
+  border-color: #f48424 !important; 
+}
+
+/* Products images */
+.productimage {
+  width: 15%;   
+}  
+
+.navmenuitems {
+  color:#f48424 !important;
+}
+
+/* Nav menu items */
+.navmenuitems:hover{
+  /* text-decoration: underline;
+    text-decoration-color: #f48424; */
+   /* border: 1px solid rgb(57, 57, 59); */
+  /*  border-top: 2px solid #f48424 ; */
+  /*  border-bottom: 2px solid #f48424 ; */
+  background-color: #f48424; 
+  color: black !important;
+  border-radius: 10%;
+
+  }
+
+  .navbarLinks {
+    color:#f6f3f0 !important;
+  }
+
+  /* Hamburger navbar menue at breakpoints */
+/*   .hamburger {
+    background-color: #f48424 !important;
+  } */
+  .hamburgerDiv:hover {
+/*     background-color: #f9f7f7 !important; */
+    border: 2px solid  #fffefe !important;
+  }
+  .hamburgerDiv {
+    background-color: #f48424 !important;
+  }
+  
+
+/* Navbar menu text */
+  .anchorText {
+   /*  font-size:large !important; */
+ /*    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    
+  }
+  .anchorText:hover {
+    color: white !important;
+  }
+
+/* Contact dropdown menu in navbar */
+.contactDropDown {
+  border: 1px solid #f48424 !important;
+
+}
+.contactDropDown:hover {
+  background-color:#f48424 !important;
+  border: 2px solid rgb(11, 11, 11) !important;
+}
+
+.offcanvasDiv {
+  background-color:#111111 !important;
+
+
+}
+
+/* .offcanvasDivBody {
+/*  width: 50vh; */
+ 
+ 
+
+.offcanvaslogoTitleDiv {
+  border-top: 2px solid #f48424;
+  border-bottom: 2px solid #f48424;
+  height: 140px;
+
+/* width: 50vh; */
+/*   height: 123px; */
+ 
+}
+
+/* Products offcanvas menue / Navbar */
+.offcanvasitems {
+  color:#f48424;
+}
+
+.offcanvasitems:hover {
+  text-decoration:underline;
+  color:#f6f4f3;
+}
+
+.xOut {
+ border: 2px solid #f48424 !important;
+ background-color: #ffffff !important;
+}
+.xOut:hover {
+ border: 2px solid #080808 !important;
+ background-color: #f48424 !important;
+}#f48424
+#f48424
+
+/* Blinking arrow link to products page in offcanvas menue*/
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0;}
+}
+
+.blinking-arrow {
+  animation: blink 1.5s linear infinite;
+}
+.blinking-arrow:hover {
+  animation: none;
+}
+
+
+/* Arrow link to products pafe */
+.productspagearrow {
+  color: #f48424 !important; 
+}
+
+.productspagearrow:hover{
+  color:#f6f4f3 !important;
+}
+
+
+
+.pipesFittingsAccordian {
+  background-color:#f48424;
+  
+}
+
+.h1PipesFittings {
+  color: #f48424;
+}
+
+
+
+.accordion-button {
+ border-top: 2px solid #f48424 !important ;
+ color: #f48424 !important;
+
+}
+
+.accordion-button::after {
+background-color:  #f48424;
+border-radius: 50%;
+}
+
+
+.accordion-button::after:hover {
+background-color:  #eceae8;
+border-radius: 50%;
+}
+
+
+.accordion-button:hover {
+
+ color: #faf6f3 !important;
+
+}
+
+
+.accordionImage {
+  background-color: #f48424 !important;
+  /* border-color: #f48424 !important; */
+ 
+}
+.accordionImage:hover {
+  background-color: #fbf8f6 !important;
+  /* border-color: #f48424 !important; */
+ 
+}
+
+/* .carouselDiv {
+  width: 20rem !important;
+} */
+
+/* Facebook, Instagram, linkin links in navbar */
+.socialmedia {
+ color: #f48424;
+
+ 
+}
+
+.socialmedia:hover {
+background-color: #f2f1f1;
+border-radius: 20%;
+
+}
+
+.socialmedia2 {
+  background-color: #f48424 !important;
+  color: white;
+}
+.socialmedia2:hover {
+  background-color: #080808 !important;
+  border: 2px solid white !important;
+  
+}
+
+/* .cards {
+  height: 20rem !important;
+} */
+
+/* H1 title on Products Page */
+.ourProductsH1 {
+   color:#f48424;
+}
+
+.ourSuppliers  {
+  color:#f48424 !important;
+}
+
+.ourPartners {
+  color: white !important;
+}
+
+/* h2 titl;e on Products Page */
+.whatWeOfferH2 {
+/* background-color: #f48424; */
+color:#f48424 !important;
+}
+
+
+/* 12 product cards on Products Page. Transition sizes */
+.productcard {
+ 
+  border: 4px solid #f48424 !important;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.productcard:hover {
+  background-color:  #f48424;
+  border-color: white !important;
+  transform: scale(1.2);
+}
+
+.productcardImage {
+  width: 50% !important;
+  margin:auto;
+}
+
+.productBtn {
+background-color: #f48424  !important;
+border: 2px solid rgb(10, 10, 10) !important;
+
+
+}
+
+.productBtn:hover {
+  background-color: #0e0e0e !important;
+  border: 2px solid white !important;
+}
+
+
+/* subscribe button for newletter */
+
+.subscribeBtn {
+  background-color:  #faf8f6 !important;
+  border: 2px solid black !important;
+/*   border-radius: !important; */
+  width: 150px;
+
+}
+.subscribeBtn:hover {
+  background-color:  #0f0f0f !important;
+  color: white !important;
+  width: 150px;
+
+}
+
+.signupBtn {
+  background-color: #f48424 !important;
+
+}
+.signupBtn:hover {
+  background-color: #080808 !important;
+  border: 2px solid #f48424 !important;
+}
+
+
+.formLabel {
+  color:  #f48424 !important;
+}
+
+
+.subcribeToNewsletterDiv {
+  background-color: #f48424;
+  box-shadow: 0px 0px 0px 2px #abaaa8 !important;
+  border: 2px solid white !important;
+  height: 250px;
+
+}
+
+.footerDiv {
+  background-color: rgb(4, 4, 4);
+  height: 200px;
+}
+
+
+.servingCanada2 {
+   color: #f48424 !important;
+}
+
+
+/* .ourLocationsh3 {
+  color: #f48424 !important;
+} */
+
+
+.locationtitles {
+  color:#f48424 !important;
+}
+
+
+.locationIcons {
+  color:#838180;
+}
+
+
+.suppliersDiv {
+  /* background-color: #151515 !important; */
+  height: 600px;
+}
+
+.suppliersLogo {
+  background-color: #f48424 !important;
+}
+
+.suppliersCarouselImage {
+  background-color: #f48424 !important;
+}
+
+/* .logo1to7 {
+  max-width:150%;
+ max-height: 600%; 
+
+}  */
+
+.headercarouselImage {
+  width: 70% !important;
+}
+
+.copyrightLogoDiv {
+ /*  width: 600px !important; */
+/*  height: 120px !important; */
+  border-left: 1px solid #f48424 !important;
+  border-right: 1px solid #f48424 !important;
+  background-color: #0b0b0b !important;
+  
+}
+
+/*  {
+  border-color: #f48424 !important;
+} */
+
+.copyrightText {
+  color:#f48424 !important;
+}
+
+.backToTop {
+  color: #f48424 !important;
+} 
+.backToTop:hover {
+  color: #f1f0f0 !important;
+}
+
+/* .envelope {
+  color: #f6f4f3 !important;
+  
+} */
+
+.pdfDownload {
+  color:#f48424 !important;
+  border: 1px solid white !important;
+  background-color: black !important;
+  text-decoration: none;
+}
+.pdfDownload:hover {
+  color:#fefdfd !important;
+  background-color: #f48424 !important;
+  border: 1px solid rgb(11, 11, 11) !important;
+}
+
+.pipeFittingsThumb {
+  border: 2px solid #f48424 !important ;
+  transition: transform 0.3s ease-in-out;
+  width: 350px !important;
+  height: 216px !important;
+}
+
+.pipeFittingsThumb:hover {
+  transform: scale(1.2);
+}
+
+.longPipesThumb {
+  width: 100px !important;
+  height: 216px !important;
+}
+
+.longPipesThumb {
+  width: 280px !important;
+  height: 216px !important;
+}
+
+
+.fabcoNavLogo {
+ /*  background-color: #f6f3f0 !important; */
+}
+
+
+/* .partnerLogo {
+  width: 120% !important;
+} */
