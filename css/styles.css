@@ -226,17 +226,18 @@ border-radius: 50%;
   width: 20rem !important;
 } */
 
-/* Facebook, Instagram, linkin links in navbar */
+/* Facebook, Instagram, linkedin links in navbar */
 .socialmedia {
- color: #f48424;
+ color: #f48424 !important;
 
- 
 }
 
-.socialmedia:hover {
-background-color: #f2f1f1;
-border-radius: 20%;
+.socialmedia: hover {
+background-color: #f2f1f1 !important;
+color: black !important;
+border-radius: 20% !important;
 
+}
 }
 
 .socialmedia2 {
