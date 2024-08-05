@@ -437,10 +437,11 @@ border: 2px solid rgb(10, 10, 10) !important;
 }
 
 .pipeFittingsThumb {
-  border: 2px solid #f48424 !important ;
+  border: 2px solid #161615 !important ;
   transition: transform 0.3s ease-in-out;
-  width: 350px !important;
+/*   width: 350px !important; */
   height: 216px !important;
+  object-fit: cover;
 }
 
 .pipeFittingsThumb:hover {
