@@ -226,7 +226,6 @@ border-radius: 50%;
   width: 20rem !important;
 } */
 
-/* Facebook, Instagram, linkedin links in navbar */
 /* Facebook, Instagram, linkin links in navbar */
 .socialmedia {
  color: #f48424 !important;
@@ -234,11 +233,13 @@ border-radius: 50%;
 }
 
 .socialmedia:hover {
-background-color: #f2f1f1;
-color: black;
-border-radius: 20%;
+background-color: #f2f1f1 !important;
+color: black !important;
+border-radius: 20% !important;
 
 }
+
+
 
 .socialmedia2 {
   background-color: #f48424 !important;
