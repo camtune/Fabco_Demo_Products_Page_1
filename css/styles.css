@@ -87,6 +87,31 @@ body {
   color: #f48424 !important; 
 }
 
+.contactLinksLang:hover {
+  background-color:  #f4f2f0 !important ;
+  color: black !important;
+}
+/* 
+.contactBottomItems {
+  background-color: black !important;
+}
+ */
+.languageToggle {
+  background-color: #f48424 !important;
+ 
+}
+.languageToggle:hover {
+  background-color: #f8f6f4 !important;
+ 
+}
+
+.dropDownLang { 
+/* background-color: #f48424 !important;  */
+border: 1px solid #f48424 !important ; 
+/* background-color: none; */
+
+}
+
 
 /* Nav menu items */
 .navmenuitems:hover{
