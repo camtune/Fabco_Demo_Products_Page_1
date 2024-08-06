@@ -56,7 +56,12 @@ body {
 }  
 
 .navbarLinks {
+  color:#f6f3f0 !important;
   max-width: max-content !important;
+  border-radius: 10%;
+}
+.navbarLinks:hover {
+    background-color: #f48424;
 }
 
 .navmenuitems {
@@ -70,15 +75,13 @@ body {
    /* border: 1px solid rgb(57, 57, 59); */
   /*  border-top: 2px solid #f48424 ; */
   /*  border-bottom: 2px solid #f48424 ; */
-  background-color: #f48424; 
+ /*  background-color: #f48424; 
   color: black !important;
   border-radius: 10%;
-
+ */
   }
 
-  .navbarLinks {
-    color:#f6f3f0 !important;
-  }
+  
 
   /* Hamburger navbar menue at breakpoints */
 /*   .hamburger {
