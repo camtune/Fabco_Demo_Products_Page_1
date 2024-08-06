@@ -55,9 +55,12 @@ body {
   width: 15%;   
 }  
 
+.navbarLinks {
+  max-width: max-content !important;
+}
+
 .navmenuitems {
   color:#f48424 !important;
-   max-width: max-content !important;
 }
 
 /* Nav menu items */
