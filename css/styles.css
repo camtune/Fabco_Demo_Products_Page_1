@@ -68,6 +68,26 @@ body {
   color:#f48424 !important;
 }
 
+
+.contactLinks {
+  color: #fcfbfa !important;
+}
+
+.contactLinks:active {
+  background-color:#fbfbfb !important;
+ 
+}
+
+
+.contactLinks:hover {
+  color: #0f0f0f !important;
+}
+
+.contactIcons {
+  color: #f48424 !important; 
+}
+
+
 /* Nav menu items */
 .navmenuitems:hover{
   /* text-decoration: underline;
