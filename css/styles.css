@@ -57,6 +57,7 @@ body {
 
 .navmenuitems {
   color:#f48424 !important;
+   max-width: max-content !important;
 }
 
 /* Nav menu items */
