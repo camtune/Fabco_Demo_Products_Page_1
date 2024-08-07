@@ -24,7 +24,7 @@ All text content can be copied and pasted.
 Of course, there’s still a lot to do to refine this page. For example, the search button and newsletter button still need javascript code to make them
 more interactive with verification notifications to guide the user. 
 
-also, the Image carousel at the top of the Products page has one image for now. It could use three to four more. The partner image carousel at the bottom of the page near the footer is just an example.
+The partner image carousel at the bottom of the page near the footer section is just an example.
 I will need to get my hands on hi-rez images of the partner logos. At the moment the images are too small and blurry. Just an example for now.
 
 In addition, there's more work left to be done to make it more responsive on smaller devices(Cell Phones etc.) so everything fits perfectly.  
